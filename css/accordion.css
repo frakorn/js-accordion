@@ -1,0 +1,104 @@
+.item {
+  padding-left: 25px;
+  border: solid #e4e6e5;
+  border-width: 0 1px 1px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  height: 50px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+}
+.item .header-block {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.item .content {
+  background: #fff;
+  overflow: hidden;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+  height: 0;
+  display: none;
+  font-size: 13px;
+  color: #333;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 400;
+  padding-right: 25px;
+}
+.item .container {
+  width: 100%;
+  overflow: hidden;
+}
+.item .container .title {
+  font-size: 14px;
+  color: #0465ac;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.item .container .description {
+  font-size: 12px;
+  color: #999;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.item .material-icons {
+  font-size: 26px;
+  color: #0465ac;
+  cursor: pointer;
+}
+.item .arrow-block {
+  display: flex;
+  align-items: center;
+}
+.item .arrow-block .arrow-btn {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.item .arrow-block .arrow-btn:hover {
+  opacity: 0.5;
+}
+
+.item.global-title {
+  height: 60px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  display: flex;
+  border-top: 1px solid #e4e6e5;
+}
+
+.item.description {
+  min-height: 70px;
+  padding-bottom: 0px;
+}
+.item.description .container .title {
+  padding-bottom: 12px;
+}
+
+.item.open {
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.item.open .content {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+.item.open .container .title {
+  font-size: 18px;
+  color: #0465ac;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=accordion.css.map */

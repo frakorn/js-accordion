@@ -1,0 +1,54 @@
+$background_color: #F5F5F5;
+
+body {
+  background-color: $background_color;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: 'Open Sans', sans-serif; 
+}
+
+@media screen and (max-width: 1366px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    #my-accordion {
+      grid-column: 1/13;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    #my-accordion {
+      grid-column: 1/13;
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    #my-accordion {
+      grid-column: 1/9;
+    }
+  }
+}
+
+.title {
+  text-align: center;
+}
